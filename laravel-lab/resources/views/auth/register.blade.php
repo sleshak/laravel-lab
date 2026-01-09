@@ -32,6 +32,7 @@
 
     <main class="form-signin w-100 m-auto">
         <form method="POST" action="{{route("register.post")}}">
+            @csfr
             <h1 class="h3 mb-3 fw-normal">Зарегистрироваться</h1>
 
             <div class="form-floating"> <input name="fullname" type="text" class="form-control" id="floatingInput"
