@@ -31,17 +31,17 @@
 @section("content")
 
   <main class="form-signin w-100 m-auto">
-    <form> <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <form>
       <h1 class="h3 mb-3 fw-normal">Пж залогиньтесь</h1>
-      <div class="form-floating"> <input type="email" class="form-control" id="floatingInput"
+      <div class="form-floating"> <input name="email" type="email" class="form-control" id="floatingInput"
           placeholder="name@example.com"> <label for="floatingInput">Почта</label> </div>
-      <div class="form-floating"> <input type="password" class="form-control" id="floatingPassword"
+      <div class="form-floating"> <input name="password" type="password" class="form-control" id="floatingPassword"
           placeholder="Password"> <label for="floatingPassword">Пароль</label> </div>
       <div class="form-check text-start my-3"> <input class="form-check-input" type="checkbox" value="remember-me"
           id="checkDefault"> <label class="form-check-label" for="checkDefault">
           Запомните меня пж
         </label> </div> <button class="btn btn-primary w-100 py-2" type="submit">Залогиниться</button>
-      <p class="mt-5 mb-3 text-body-secondary">© 2017–2025</p>
+      <p class="mt-5 mb-3 text-body-secondary">Санёк© 2004–2026</p>
     </form>
   </main>
 
